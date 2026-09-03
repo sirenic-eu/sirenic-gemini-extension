@@ -1,0 +1,19 @@
+# Le compte d'outils de ce dépôt est du TEXTE : il ne peut pas être interpolé
+# depuis la constante du service. Il est donc confronté au catalogue réellement
+# servi en production — à chaque poussée, et une fois par semaine, parce que la
+# dérive ne vient pas d'ici : elle vient du 78ᵉ outil ajouté ailleurs.
+name: compte d'outils
+
+on:
+  push:
+  schedule:
+    - cron: "17 6 * * 1" # tous les lundis, 06:17 UTC
+  workflow_dispatch:
+
+jobs:
+  verifier:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      # curl et jq sont fournis par l'image ubuntu-latest.
+      - run: ./verifier-compte-outils.sh

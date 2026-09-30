@@ -33,6 +33,9 @@ shown on the route — the same price as a direct API call. Pricing:
 ## Links
 
 - Service and full route grid: <https://api.sirenic.eu/en>
+- Use cases, step by step (supplier check before payment, KYB, sanctions
+  screening): <https://api.sirenic.eu/en/use-cases>
+- About the service and how every answer describes itself: <https://api.sirenic.eu/en/about>
 - How to connect any assistant: <https://api.sirenic.eu/en/connectors>
 - Privacy policy: <https://api.sirenic.eu/en/privacy>
 

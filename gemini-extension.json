@@ -5,7 +5,7 @@
   "contextFileName": "GEMINI.md",
   "mcpServers": {
     "sirenic": {
-      "description": "Sirenic — 77 tools over official French and European company registers (INSEE Sirene, INPI RNE, BODACC, VIES, EU registers). OAuth: sign in with a Sirenic account, 100 free calls per month.",
+      "description": "Sirenic: tools over official French and European company registers (INSEE Sirene, INPI RNE, BODACC, VIES, EU registers). OAuth: sign in with a Sirenic account, 150 free calls per month.",
       "httpUrl": "https://api.sirenic.eu/mcp/connecteur"
     }
   }

@@ -1,6 +1,6 @@
-# Sirenic — extension Gemini CLI
+# Sirenic, extension Gemini CLI
 
-Official **French and European company data** for AI agents, in 77 tools:
+Official **French and European company data** for AI agents, over MCP:
 verify a supplier before paying it, KYB files, financial statements, default
 risk, sanctions screening, public procurement, e-invoicing checks.
 
@@ -12,13 +12,13 @@ gemini extensions install https://github.com/sirenic-eu/sirenic-gemini-extension
 
 Gemini CLI detects that the server requires authentication, discovers the OAuth
 endpoints and registers itself. You sign in with a Sirenic account and
-authorise — nothing to copy, no client ID, no secret.
+authorise: nothing to copy, no client ID, no secret.
 
 ## What it costs
 
-A verified account gets **100 free calls per month** on routes priced at $0.01
-or less. Beyond that, each call is charged to your prepaid credits at the price
-shown on the route — the same price as a direct API call. Pricing:
+A verified account gets **150 free calls per month** on the eligible routes (the
+price list says which). Beyond that, each call is charged to your prepaid credits at the price
+shown on the route, the same price as a direct API call. Pricing:
 <https://api.sirenic.eu/en/offres>
 
 ## Three prompts to get started
@@ -29,6 +29,12 @@ shown on the route — the same price as a direct API call. Pricing:
   and compare it with its sector average."*
 - *"Is this company under sanctions, and does it have any BODACC gazette
   announcements in the last six months?"*
+
+## Star this repo
+
+If this extension saved you a lookup, a star helps other Gemini CLI users find it.
+
+[![Star History Chart](https://api.star-history.com/svg?repos=sirenic-eu/sirenic-gemini-extension&type=Date)](https://star-history.com/#sirenic-eu/sirenic-gemini-extension&Date)
 
 ## Links
 
